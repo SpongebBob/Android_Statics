@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bmj.statistics_all" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:logo="@drawable/ic_menu_revert"
+            android:name=".BMJStatisticsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:logo="@drawable/ic_menu_revert"
+            android:name=".BMJMissionStatics"
+            android:label="@string/title_activity_bmjmission_statics" >
+        </activity>
+        <activity
+            android:logo="@drawable/ic_menu_revert"
+            android:name=".BMJKHStatistics"
+            android:label="@string/title_activity_bmjkhstatistics" >
+        </activity>
+        <activity
+            android:logo="@drawable/ic_menu_revert"
+            android:name=".BMJLXRStatics"
+            android:label="@string/title_activity_bmjlxrstatics" >
+        </activity>
+        <activity
+            android:logo="@drawable/ic_menu_revert"
+            android:name=".BMJBFStatics"
+            android:label="@string/title_activity_bmjbfstatics" >
+        </activity>
+    </application>
+
+</manifest>
